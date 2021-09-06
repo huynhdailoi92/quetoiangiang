@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    padding: auto;
+    margin: auto;
+}
+#header {
+    height: 60px;
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px 0;
+}
+#header a {
+    color: white;
+    text-decoration: none;
+}
+#banner img {
+    width: 100%;
+    height: auto;
+}
+#content h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#content p {
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+#content {
+    width: 100%;
+    padding-top: 20px;
+    margin-top: -10px;
+    padding-bottom: 500px;
+    background-color: darkgray;
+}
+.wrapper {
+    width: 100%;
+}
+.pic1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+}
+.pic2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+
+}
+.pic3 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+    padding-bottom: 30px;
+}
+.pic4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+    padding-bottom: 30px;
+}
+#content h3 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+
+}
+.pic:hover {
+    background-color: green;
+}
+
+#content img {
+    width: 100%
+}
+#footer {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    background-color:rgba(209, 219, 219, 0.849);
+    color: black;
+
+}
+@media only screen and (max-width:600px) {
+    .pic {
+        display: block;
+        width: 100%;
+    }
+}
